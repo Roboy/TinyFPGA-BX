@@ -2122,24 +2122,18 @@ Wire Wire Line
 	5300 8250 5300 8100
 Text GLabel 5750 7400 0    60   Input ~ 0
 10B
-Text GLabel 5750 7100 0    60   Input ~ 0
-26A
-Text GLabel 5750 7200 0    60   Input ~ 0
-SDI
-Text GLabel 5750 7500 0    60   Input ~ 0
-54
-Text GLabel 5750 7600 0    60   Input ~ 0
-174
 Text GLabel 7150 7100 2    60   Input ~ 0
 170
-Text GLabel 7150 7200 2    60   Input ~ 0
-116
-Text GLabel 7150 7300 2    60   Input ~ 0
-148
-Text GLabel 7150 7400 2    60   Input ~ 0
-141
-Text GLabel 5750 7700 0    60   Input ~ 0
+NoConn ~ 5750 7600
+NoConn ~ 5750 7700
+NoConn ~ 5750 7800
+NoConn ~ 7150 7300
+NoConn ~ 7150 7400
+NoConn ~ 7150 7200
+Text GLabel 5750 7500 0    60   Input ~ 0
 26A
-Text GLabel 5750 7800 0    60   Input ~ 0
-54
+Text GLabel 5750 7100 0    60   Input ~ 0
+3B
+Text GLabel 5750 7200 0    60   Input ~ 0
+7A
 $EndSCHEMATC
