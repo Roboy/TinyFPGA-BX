@@ -1,5 +1,5 @@
 #-- Lattice, Inc.
-#-- Project file C:\lscc\iCEcube2.2017.01\sbt_backend\Projects\template\template_lse.prj
+#-- Project file /home/letrend/workspace/TinyFPGA-BX/icecube2_template/template_lse.prj
 
 #device
 -a SBTiCE40
@@ -9,6 +9,7 @@
 -sdc "constraints/clk.sdc"
 
 #options
+-frequency 16
 -optimization_goal Area
 -twr_paths 3
 -bram_utilization 100.00
@@ -26,10 +27,26 @@
 -resolve_mixed_drivers 0
 -RWCheckOnRam 0
 -fix_gated_clocks 1
+-top TinyFPGA_B
+-vh2008
 -loop_limit 1950
 
 -ver "verilog/TinyFPGA_B.v"
--p "C:/lscc/iCEcube2.2017.01/sbt_backend/Projects/template"
+-ver "../../hdlcoderFocCurrentFixptHdl/Clarke_Transform.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/D_Current_Control.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/DQ_Current_Control.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/foc.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/FOC_Current_Control.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Inverse_Clarke_Transform.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Inverse_Park_Transform.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Max.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Min.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Park_Transform.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Saturate_Output.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Sine_Cosine.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Sine_Cosine_LUT.v"
+-ver "../../hdlcoderFocCurrentFixptHdl/Space_Vector_Modulation.v"
+-p "/home/letrend/workspace/TinyFPGA-BX/icecube2_template"
 
 #set result format/file last
 -output_edif template_Implmnt/template.edf

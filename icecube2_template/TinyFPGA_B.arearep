@@ -1,0 +1,177 @@
+----------------------------------------------------------------------
+Report for cell TinyFPGA_B.TECH
+Register bits:  112 of 7680 (1.458%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY      2952          100.0
+                             SB_DFF       112          100.0
+                           SB_GB_IO         1          100.0
+                              SB_IO        20          100.0
+                            SB_LUT4      4293          100.0
+                        VERIFIC_PWR         7          100.0
+SUB MODULES
+                 DQ_Current_Control         1
+                  D_Current_Control         1
+               D_Current_Control_U1         1
+                FOC_Current_Control         1
+           Inverse_Clarke_Transform         1
+             Inverse_Park_Transform         1
+                                Max         1
+                                Min         1
+                     Park_Transform         1
+                    Saturate_Output         1
+                 Saturate_Output_U0         1
+                        Sine_Cosine         1
+                    Sine_Cosine_LUT         1
+            Space_Vector_Modulation         1
+                              TOTAL      7399
+----------------------------------------------------------------------
+Report for cell FOC_Current_Control.v1
+Instance Path : foc
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY      2952          100.0
+                             SB_DFF       112          100.0
+                            SB_LUT4      4218           98.3
+                        VERIFIC_PWR         6           85.7
+SUB MODULES
+                 DQ_Current_Control         1
+                  D_Current_Control         1
+               D_Current_Control_U1         1
+           Inverse_Clarke_Transform         1
+             Inverse_Park_Transform         1
+                                Max         1
+                                Min         1
+                     Park_Transform         1
+                    Saturate_Output         1
+                 Saturate_Output_U0         1
+                        Sine_Cosine         1
+                    Sine_Cosine_LUT         1
+            Space_Vector_Modulation         1
+                              TOTAL      7301
+----------------------------------------------------------------------
+Report for cell Space_Vector_Modulation.v1
+Instance Path : foc.u_Space_Vector_Modulation
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        79            2.7
+                            SB_LUT4       402            9.4
+                        VERIFIC_PWR         1           14.3
+SUB MODULES
+                                Max         1
+                                Min         1
+                              TOTAL       484
+----------------------------------------------------------------------
+Report for cell Min.v1
+Instance Path : foc.u_Space_Vector_Modulation.u_Min
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4       162            3.8
+                              TOTAL       162
+----------------------------------------------------------------------
+Report for cell Max.v1
+Instance Path : foc.u_Space_Vector_Modulation.u_Max
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4       160            3.7
+                              TOTAL       160
+----------------------------------------------------------------------
+Report for cell Sine_Cosine.v1
+Instance Path : foc.u_Sine_Cosine
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       198            6.7
+                            SB_LUT4       203            4.7
+                        VERIFIC_PWR         1           14.3
+SUB MODULES
+                    Sine_Cosine_LUT         1
+                              TOTAL       403
+----------------------------------------------------------------------
+Report for cell Sine_Cosine_LUT.v1
+Instance Path : foc.u_Sine_Cosine.u_Sine_Cosine_LUT
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       198            6.7
+                            SB_LUT4       203            4.7
+                        VERIFIC_PWR         1           14.3
+                              TOTAL       402
+----------------------------------------------------------------------
+Report for cell Park_Transform.v1
+Instance Path : foc.u_Park_Transform
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       434           14.7
+                            SB_LUT4       476           11.1
+                        VERIFIC_PWR         1           14.3
+                              TOTAL       911
+----------------------------------------------------------------------
+Report for cell Inverse_Park_Transform.v1
+Instance Path : foc.u_Inverse_Park_Transform
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       952           32.2
+                            SB_LUT4      1265           29.5
+                        VERIFIC_PWR         1           14.3
+                              TOTAL      2218
+----------------------------------------------------------------------
+Report for cell Inverse_Clarke_Transform.v1
+Instance Path : foc.u_Inverse_Clarke_Transform
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       275            9.3
+                            SB_LUT4       324            7.5
+                        VERIFIC_PWR         1           14.3
+                              TOTAL       600
+----------------------------------------------------------------------
+Report for cell DQ_Current_Control.v1
+Instance Path : foc.u_DQ_Current_Control
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY      1014           34.3
+                             SB_DFF        64           57.1
+                            SB_LUT4      1548           36.1
+                        VERIFIC_PWR         1           14.3
+SUB MODULES
+                  D_Current_Control         1
+               D_Current_Control_U1         1
+                    Saturate_Output         1
+                 Saturate_Output_U0         1
+                              TOTAL      2631
+----------------------------------------------------------------------
+Report for cell D_Current_Control.v1
+Instance Path : foc.u_DQ_Current_Control.u_Q_Current_Control
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       506           17.1
+                             SB_DFF        32           28.6
+                            SB_LUT4       777           18.1
+SUB MODULES
+                    Saturate_Output         1
+                              TOTAL      1316
+----------------------------------------------------------------------
+Report for cell Saturate_Output.v1
+Instance Path : foc.u_DQ_Current_Control.u_Q_Current_Control.u_Saturate_Output
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4       166            3.9
+                              TOTAL       166
+----------------------------------------------------------------------
+Report for cell D_Current_Control_U1.v1
+Instance Path : foc.u_DQ_Current_Control.u_D_Current_Control
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       508           17.2
+                             SB_DFF        32           28.6
+                            SB_LUT4       771           18.0
+                        VERIFIC_PWR         1           14.3
+SUB MODULES
+                 Saturate_Output_U0         1
+                              TOTAL      1313
+----------------------------------------------------------------------
+Report for cell Saturate_Output_U0.v1
+Instance Path : foc.u_DQ_Current_Control.u_D_Current_Control.u_Saturate_Output
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4       168            3.9
+                              TOTAL       168

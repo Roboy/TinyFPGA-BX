@@ -1,3 +1,5 @@
 (sym_lib_table
+  (lib (name custom)(type Legacy)(uri /home/letrend/workspace/TinyFPGA-BX/kicad_db/lib/custom.lib)(options "")(descr ""))
+  (lib (name LD39200)(type Legacy)(uri /home/letrend/workspace/TinyFPGA-BX/kicad_db/lib/LD39200.lib)(options "")(descr ""))
   (lib (name TinyFPGA-BX-rescue)(type Legacy)(uri ${KIPRJMOD}/TinyFPGA-BX-rescue.lib)(options "")(descr ""))
 )

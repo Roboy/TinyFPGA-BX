@@ -24,13 +24,10 @@ module TinyFPGA_B (
   inout pin23,
   inout pin24
 );
-
   // left side of board
   assign pin1_usb_dp = 1'bz;
   assign pin2_usb_dn = 1'bz;
-  assign pin4 = 1'bz;
-  assign pin5 = 1'bz;
-  assign pin6 = 1'bz;
+
   assign pin7 = 1'bz;
   assign pin8 = 1'bz;
   assign pin9 = 1'bz;
@@ -51,5 +48,25 @@ module TinyFPGA_B (
   assign pin22 =     1'bz;
   assign pin23 =     1'bz;
   assign pin24 =     1'bz;
+
+  
+
+
+  FOC_Current_Control foc(
+  	.clk(pin3_clk_16mhz),
+           .reset(1'b0),
+           .clk_enable(1'b1),
+           .Current_Command(),
+           .Phase_Current_0(),
+           .Phase_Current_1(),
+           .Electrical_Position(),
+           .paramCurrentControlI(),
+           .paramCurrentControlP(),
+           .ce_out(),
+           .Phase_Voltage_0(),
+           .Phase_Voltage_1(),
+           .Phase_Voltage_2()
+
+)/* synthesis syn_noprune=1 */;
 
 endmodule

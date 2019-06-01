@@ -1,0 +1,31 @@
+----------------------------------------------------------------------
+Report for cell DarkRoomOOTXdecoder.TECH
+Register bits:  1731 of 7680 (22.539%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       599          100.0
+                             SB_DFF      1221          100.0
+                            SB_DFFE       486          100.0
+                           SB_DFFER        13          100.0
+                          SB_DFFESR         8          100.0
+                            SB_DFFR         3          100.0
+                           SB_GB_IO         1          100.0
+                              SB_IO        90          100.0
+                            SB_LUT4      3790          100.0
+SUB MODULES
+    lighthouse_ootx_decoder_default         1
+                              TOTAL      6212
+----------------------------------------------------------------------
+Report for cell lighthouse_ootx_decoder_default.v1
+Instance Path : ootx_decoder
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY       599          100.0
+                             SB_DFF      1221          100.0
+                            SB_DFFE       486          100.0
+                           SB_DFFER        10           76.9
+                          SB_DFFESR         8          100.0
+                            SB_DFFR         3          100.0
+                            SB_LUT4      2483           65.5
+                              TOTAL      4810
