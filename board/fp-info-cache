@@ -1,4 +1,4 @@
-15137719858987171
+15176659827563244
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -41305,6 +41305,181 @@ SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B
 SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
+3
+custom_lib
+4-DFN
+
+
+0
+5
+5
+custom_lib
+D_SOD-993
+https://assets.nexperia.com/documents/data-sheet/PMEG4010AESB.pdf
+Diode SOD993
+0
+2
+2
+custom_lib
+IM69D130_Simic_uPhone
+
+
+0
+5
+5
+custom_lib
+JST_S10B-PHDSS_2x05x2.00mm_Angled
+JST PHD series connector, dual row side entry, through hole, Datasheet:http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf
+connector jst phd S10B-PHDSS
+0
+10
+10
+custom_lib
+LED_Dual_0603_AACC
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+4
+4
+custom_lib
+LED_WS2812B-PLCC4_3.5x3.5
+http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
+LED NeoPixel Mini
+0
+4
+4
+custom_lib
+QFN32_6x6mm_Pitch0.65mm
+
+
+0
+37
+33
+custom_lib
+R1_ear_silk_5.5mm
+
+
+0
+0
+0
+custom_lib
+R1_eyes_mask_5.5mm
+
+
+0
+0
+0
+custom_lib
+R1_face_mask_5.5mm
+
+
+0
+0
+0
+custom_lib
+Roboy_big(4cm)
+Imported from ../../Pictures/RoboyLogo.svg
+svg2mod
+0
+0
+0
+custom_lib
+Roboy_big(4cm)_without_circle
+Imported from ../../Pictures/RoboyLogo.svg
+svg2mod
+0
+0
+0
+custom_lib
+Roboy_Logo_F.SilkS
+Imported from ../../Pictures/RoboyLogo.svg
+svg2mod
+0
+0
+0
+custom_lib
+Roboy_text_5.5mm
+
+
+0
+0
+0
+custom_lib
+SolderWirePad_single_SMD_1.5x3mm
+Wire Pad, Square, SMD Pad,  1.5mm x 3mm,
+MesurementPoint Square SMDPad 1.5mmx3mm 
+0
+1
+1
+custom_lib
+SW_SPST_KXT3
+https://www.ckswitches.com/media/1465/kxt3.pdf
+Tactile Switch
+0
+2
+2
+custom_lib
+TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm
+TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4
+connector, TE-Connectivity, female
+0
+4
+4
+custom_lib
+TE-Connectivity_Micro-Match_connector_02x03_Pitch_1.27mm
+TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-6
+connector, TE-Connectivity, female
+0
+6
+6
+custom_lib
+TE-Connectivity_Micro-Match_connector_02x05_Pitch_1.27mm
+TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-10
+connector, TE-Connectivity, female
+0
+10
+10
+custom_lib
+The_0402_FP
+
+
+0
+2
+2
+custom_lib
+TSOP-6
+6-pin TSOP-6 package, http://www.icbank.com/icbank_data/semi_package/tsop6_dim.pdf
+TSOP-6
+0
+6
+6
+custom_lib
+Wago_2060_2_SMD
+
+
+0
+4
+2
+custom_lib
+Wago_2060_2_THT
+
+
+0
+4
+2
+custom_lib
+Wago_2060_3_SMD
+
+
+0
+6
+3
+custom_lib
+Wago_2060_3_THT
+
+
+0
+6
 3
 Diode_SMD
 Diode_Bridge_Diotec_ABS
