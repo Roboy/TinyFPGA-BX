@@ -1,4 +1,4 @@
-15176659827563244
+15196977537066244
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -41321,6 +41321,41 @@ Diode SOD993
 2
 2
 custom_lib
+ESP32-WROOM-32-Espressif-Symbol-Kicad-62379
+
+
+0
+39
+39
+custom_lib
+Everlight_3x2x1_side_lens_wide_LED
+
+
+0
+3
+2
+custom_lib
+Everlight_3x2x1_side_lens_wide_Phototransistor
+
+
+0
+3
+2
+custom_lib
+FFC_conn_10pos_0.5pitch_10062827-1010EDLF
+
+
+0
+12
+10
+custom_lib
+FPC_0.5mmx10
+
+
+0
+10
+10
+custom_lib
 IM69D130_Simic_uPhone
 
 
@@ -41348,6 +41383,27 @@ LED NeoPixel Mini
 0
 4
 4
+custom_lib
+MP34DB02_chip_side
+
+
+0
+9
+5
+custom_lib
+MP34DB02_chip_side_nocage
+
+
+0
+8
+5
+custom_lib
+PowerPAIR-6x5F-8
+
+
+0
+10
+10
 custom_lib
 QFN32_6x6mm_Pitch0.65mm
 
@@ -41412,6 +41468,13 @@ MesurementPoint Square SMDPad 1.5mmx3mm
 1
 1
 custom_lib
+Solder_Bridge_3_0402
+
+
+0
+3
+3
+custom_lib
 SW_SPST_KXT3
 https://www.ckswitches.com/media/1465/kxt3.pdf
 Tactile Switch
@@ -41440,6 +41503,13 @@ connector, TE-Connectivity, female
 10
 10
 custom_lib
+TE-Connectivity_Micro-Match_connector_02x10_Pitch_1.27mm
+TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-10
+connector, TE-Connectivity, female
+0
+20
+20
+custom_lib
 The_0402_FP
 
 
@@ -41447,9 +41517,23 @@ The_0402_FP
 2
 2
 custom_lib
+TSL1401CL
+
+
+0
+8
+8
+custom_lib
 TSOP-6
 6-pin TSOP-6 package, http://www.icbank.com/icbank_data/semi_package/tsop6_dim.pdf
 TSOP-6
+0
+6
+6
+custom_lib
+ULLGA6_1.45_x_1.0_0.5P
+
+
 0
 6
 6
@@ -41481,6 +41565,13 @@ Wago_2060_3_THT
 0
 6
 3
+custom_lib
+X2QFN-8
+
+
+0
+8
+8
 Diode_SMD
 Diode_Bridge_Diotec_ABS
 SMD diode bridge ABS (Diotec), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
