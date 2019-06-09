@@ -1,4 +1,4 @@
-update=Fr 07 Jun 2019 01:19:20 CEST
+update=Mo 10 Jun 2019 00:14:24 CEST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=TinyFPGA-BX.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -90,6 +90,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=less
+Clearance=0.01
+TrackWidth=0.1
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=xlarge
 Clearance=0.2
 TrackWidth=0.2

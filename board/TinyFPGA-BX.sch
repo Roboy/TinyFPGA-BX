@@ -1050,8 +1050,6 @@ Text Notes 8950 9350 0    60   ~ 0
 FPGA reset button and testpoint
 Text Notes 12950 4000 0    60   ~ 0
 FPGA connections
-Text Notes 13000 1200 0    60   ~ 0
-TinyFPGA Bx Pin Headers
 Wire Wire Line
 	13450 7050 14350 7050
 Wire Wire Line
@@ -1116,8 +1114,6 @@ Text GLabel 14250 6950 0    60   Input ~ 0
 13A
 Wire Wire Line
 	14250 6950 14350 6950
-Text GLabel 10950 850  0    60   Input ~ 0
-LED
 Text GLabel 11750 9000 0    60   Input ~ 0
 183
 Wire Wire Line
@@ -1142,85 +1138,54 @@ Text GLabel 11750 7300 0    60   Input ~ 0
 111
 Wire Wire Line
 	11750 7300 11850 7300
-Text GLabel 10950 950  0    60   Input ~ 0
-USB_P
-Text GLabel 11450 950  2    60   Input ~ 0
-USB_N
-Text GLabel 11450 850  2    60   Input ~ 0
-USB_PU
-$Comp
-L power:+3V3 #PWR020
-U 1 1 5A3A523B
-P 10600 1800
-F 0 "#PWR020" H 10600 1650 50  0001 C CNN
-F 1 "+3V3" H 10600 1940 50  0000 C CNN
-F 2 "" H 10600 1800 50  0001 C CNN
-F 3 "" H 10600 1800 50  0001 C CNN
-	1    10600 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5A3A5594
-P 11800 2900
-F 0 "#PWR025" H 11800 2650 50  0001 C CNN
-F 1 "GND" H 11800 2750 50  0000 C CNN
-F 2 "" H 11800 2900 50  0001 C CNN
-F 3 "" H 11800 2900 50  0001 C CNN
-	1    11800 2900
-	1    0    0    -1  
+P 9550 6600
+F 0 "#PWR025" H 9550 6350 50  0001 C CNN
+F 1 "GND" H 9550 6450 50  0000 C CNN
+F 2 "" H 9550 6600 50  0001 C CNN
+F 3 "" H 9550 6600 50  0001 C CNN
+	1    9550 6600
+	0    1    1    0   
 $EndComp
 Text GLabel 11750 6900 0    60   Input ~ 0
 140
 Wire Wire Line
 	11750 6900 11850 6900
-Text GLabel 10950 1900 0    60   Input ~ 0
-140
 Text GLabel 11750 7500 0    60   Input ~ 0
 110
 Wire Wire Line
 	11750 7500 11850 7500
-Text GLabel 10950 2100 0    60   Input ~ 0
-110
 Text GLabel 11400 7200 0    60   Input ~ 0
 112
 Wire Wire Line
 	11400 7200 11850 7200
-Text GLabel 10950 2200 0    60   Input ~ 0
-112
 Text GLabel 11400 7400 0    60   Input ~ 0
 109
 Wire Wire Line
 	11400 7400 11850 7400
-Text GLabel 10950 2300 0    60   Input ~ 0
-109
 Wire Wire Line
 	11200 5200 11850 5200
 Text GLabel 14400 5300 0    60   Input ~ 0
 70
 Wire Wire Line
 	14400 5300 14500 5300
-Text GLabel 11450 2200 2    60   Input ~ 0
-70
 Text GLabel 14400 5200 0    60   Input ~ 0
 57
 Wire Wire Line
 	14400 5200 14500 5200
-Text GLabel 11450 2100 2    60   Input ~ 0
-57
-Text GLabel 11450 1900 2    60   Input ~ 0
-24B
 Text GLabel 13950 6150 0    60   Input ~ 0
 CLK
 Wire Wire Line
 	13950 6150 14350 6150
-Text GLabel 11450 2500 2    60   Input ~ 0
+Text GLabel 9750 6400 0    60   Input ~ 0
 SS
-Text GLabel 11450 2400 2    60   Input ~ 0
+Text GLabel 9750 6300 0    60   Input ~ 0
 SDI
-Text GLabel 10950 2500 0    60   Input ~ 0
+Text GLabel 9750 6200 0    60   Input ~ 0
 SDO
-Text GLabel 10950 2400 0    60   Input ~ 0
+Text GLabel 9750 6100 0    60   Input ~ 0
 SCK
 $Comp
 L TinyFPGA-BX-rescue:LED_Small D1
@@ -1339,56 +1304,10 @@ Wire Wire Line
 	11000 9600 11000 9700
 Text GLabel 11200 5200 0    60   Input ~ 0
 SDO
-Text GLabel 11450 2300 2    60   Input ~ 0
-82
-$Comp
-L TinyFPGA-BX-rescue:Conn_02x03_Odd_Even J5
-U 1 1 5A3BFD22
-P 11150 850
-F 0 "J5" H 11200 1050 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 11200 650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 11150 850 50  0001 C CNN
-F 3 "" H 11150 850 50  0001 C CNN
-	1    11150 850 
-	1    0    0    -1  
-$EndComp
-Text GLabel 10950 750  0    60   Input ~ 0
-CLK
 Text GLabel 14400 5100 0    60   Input ~ 0
 56
 Wire Wire Line
 	14500 5100 14400 5100
-Text GLabel 11450 750  2    60   Input ~ 0
-56
-$Comp
-L TinyFPGA-BX-rescue:Conn_02x08_Odd_Even J4
-U 1 1 5A9C6A1C
-P 11150 2200
-F 0 "J4" H 11200 2600 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 11200 1700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 11150 2200 50  0001 C CNN
-F 3 "" H 11150 2200 50  0001 C CNN
-	1    11150 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11450 2600 11800 2600
-Wire Wire Line
-	11800 2000 11800 2600
-Wire Wire Line
-	11450 2000 11800 2000
-Connection ~ 11800 2600
-Wire Wire Line
-	10950 2600 10700 2600
-Wire Wire Line
-	10700 2600 10700 2800
-Wire Wire Line
-	10700 2800 11800 2800
-Connection ~ 11800 2800
-Wire Wire Line
-	10950 2000 10600 2000
-Wire Wire Line
-	10600 2000 10600 1800
 Text GLabel 6750 5450 0    60   Input ~ 0
 109
 Text GLabel 6750 5350 0    60   Input ~ 0
@@ -1523,10 +1442,6 @@ Wire Wire Line
 	13450 7050 13450 5800
 Wire Wire Line
 	4850 3150 4850 3050
-Wire Wire Line
-	11800 2600 11800 2800
-Wire Wire Line
-	11800 2800 11800 2900
 Wire Wire Line
 	6950 4600 6450 4600
 Wire Wire Line
@@ -1737,26 +1652,26 @@ F 3 "" H 9850 2300 50  0001 C CNN
 	1    9850 2300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9850 1000 2    60   Input ~ 0
-10A
 Text GLabel 9850 1100 2    60   Input ~ 0
-13A
+3B
+Text GLabel 9850 1000 2    60   Input ~ 0
+3A
 Text GLabel 9200 1650 2    60   Input ~ 0
-26B
+54
 Text GLabel 9200 1550 2    60   Input ~ 0
-55
+24B
 Text GLabel 9850 1550 2    60   Input ~ 0
-119
+55
 Text GLabel 9850 1650 2    60   Input ~ 0
-111
+70
 Text GLabel 9200 2100 2    60   Input ~ 0
-177
+110
 Text GLabel 9200 2200 2    60   Input ~ 0
-180
+111
 Text GLabel 9850 2100 2    60   Input ~ 0
-185
+112
 Text GLabel 9850 2200 2    60   Input ~ 0
-177
+119
 $Comp
 L RF_Module:ESP32-WROOM-32U U7
 U 1 1 5D051BDC
@@ -2490,161 +2405,96 @@ F 3 "" H 9850 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 9200 2650 2    60   Input ~ 0
-177
+116
 Text GLabel 9200 2750 2    60   Input ~ 0
-180
+148
 Text GLabel 9850 2650 2    60   Input ~ 0
 185
 Text GLabel 9850 2750 2    60   Input ~ 0
-183
+177
+Wire Wire Line
+	9500 10250 10150 10250
 $Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 5D0D6211
-P 9000 3200
-F 0 "J2" H 9108 3481 50  0000 C CNN
-F 1 "sensor8" H 9108 3390 50  0000 C CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9000 3200 50  0001 C CNN
-F 3 "~" H 9000 3200 50  0001 C CNN
-	1    9000 3200
+L Connector:Conn_01x06_Female J4
+U 1 1 5D04D12A
+P 9950 6300
+F 0 "J4" H 9978 6276 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9978 6185 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x03_Pitch_1.27mm" H 9950 6300 50  0001 C CNN
+F 3 "~" H 9950 6300 50  0001 C CNN
+	1    9950 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 6500 9650 6500
+Wire Wire Line
+	9650 6500 9650 6600
+Wire Wire Line
+	9650 6600 9550 6600
+Wire Wire Line
+	9750 6600 9650 6600
+Connection ~ 9650 6600
+$Comp
+L custom:Simic_Infineon U8
+U 1 1 5D1906F5
+P 12700 2250
+F 0 "U8" H 12700 2725 50  0000 C CNN
+F 1 "Simic_Infineon" H 12700 2634 50  0000 C CNN
+F 2 "custom_lib:IM69D130_Simic_uPhone" H 12700 2250 50  0001 C CNN
+F 3 "" H 12700 2250 50  0001 C CNN
+	1    12700 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0134
-U 1 1 5D0D621B
-P 9200 3100
-F 0 "#PWR0134" H 9200 2950 50  0001 C CNN
-F 1 "+3V3" H 9200 3240 50  0000 C CNN
-F 2 "" H 9200 3100 50  0001 C CNN
-F 3 "" H 9200 3100 50  0001 C CNN
-	1    9200 3100
-	0    1    1    0   
+U 1 1 5CFF683C
+P 11850 1950
+F 0 "#PWR0134" H 11850 1800 50  0001 C CNN
+F 1 "+3V3" H 11850 2090 50  0000 C CNN
+F 2 "" H 11850 1950 50  0001 C CNN
+F 3 "" H 11850 1950 50  0001 C CNN
+	1    11850 1950
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12250 2000 11850 2000
+Wire Wire Line
+	11850 2000 11850 1950
+$Comp
+L Device:C C18
+U 1 1 5D0105EC
+P 11850 2150
+F 0 "C18" H 11965 2196 50  0000 L CNN
+F 1 "C" H 11965 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 11888 2000 50  0001 C CNN
+F 3 "~" H 11850 2150 50  0001 C CNN
+	1    11850 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 11850 2000
+Wire Wire Line
+	12500 2750 12250 2750
+Wire Wire Line
+	11850 2750 11850 2300
+Wire Wire Line
+	12250 2100 12250 2750
+Connection ~ 12250 2750
+Wire Wire Line
+	12250 2750 11850 2750
 $Comp
 L power:GND #PWR0135
-U 1 1 5D0D6225
-P 9200 3400
-F 0 "#PWR0135" H 9200 3150 50  0001 C CNN
-F 1 "GND" H 9200 3250 50  0000 C CNN
-F 2 "" H 9200 3400 50  0001 C CNN
-F 3 "" H 9200 3400 50  0001 C CNN
-	1    9200 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J15
-U 1 1 5D0D622F
-P 9650 3200
-F 0 "J15" H 9758 3481 50  0000 C CNN
-F 1 "sensor9" H 9758 3390 50  0000 C CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9650 3200 50  0001 C CNN
-F 3 "~" H 9650 3200 50  0001 C CNN
-	1    9650 3200
+U 1 1 5D04740B
+P 12500 2750
+F 0 "#PWR0135" H 12500 2500 50  0001 C CNN
+F 1 "GND" H 12500 2600 50  0000 C CNN
+F 2 "" H 12500 2750 50  0001 C CNN
+F 3 "" H 12500 2750 50  0001 C CNN
+	1    12500 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR0136
-U 1 1 5D0D6239
-P 9850 3100
-F 0 "#PWR0136" H 9850 2950 50  0001 C CNN
-F 1 "+3V3" H 9850 3240 50  0000 C CNN
-F 2 "" H 9850 3100 50  0001 C CNN
-F 3 "" H 9850 3100 50  0001 C CNN
-	1    9850 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0137
-U 1 1 5D0D6243
-P 9850 3400
-F 0 "#PWR0137" H 9850 3150 50  0001 C CNN
-F 1 "GND" H 9850 3250 50  0000 C CNN
-F 2 "" H 9850 3400 50  0001 C CNN
-F 3 "" H 9850 3400 50  0001 C CNN
-	1    9850 3400
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9200 3200 2    60   Input ~ 0
-177
-Text GLabel 9200 3300 2    60   Input ~ 0
-180
-Text GLabel 9850 3200 2    60   Input ~ 0
-185
-Text GLabel 9850 3300 2    60   Input ~ 0
-183
-$Comp
-L Connector:Conn_01x04_Male J16
-U 1 1 5D18259D
-P 9000 3850
-F 0 "J16" H 9108 4131 50  0000 C CNN
-F 1 "sensor10" H 9108 4040 50  0000 C CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9000 3850 50  0001 C CNN
-F 3 "~" H 9000 3850 50  0001 C CNN
-	1    9000 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0138
-U 1 1 5D1825A7
-P 9200 3750
-F 0 "#PWR0138" H 9200 3600 50  0001 C CNN
-F 1 "+3V3" H 9200 3890 50  0000 C CNN
-F 2 "" H 9200 3750 50  0001 C CNN
-F 3 "" H 9200 3750 50  0001 C CNN
-	1    9200 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0139
-U 1 1 5D1825B1
-P 9200 4050
-F 0 "#PWR0139" H 9200 3800 50  0001 C CNN
-F 1 "GND" H 9200 3900 50  0000 C CNN
-F 2 "" H 9200 4050 50  0001 C CNN
-F 3 "" H 9200 4050 50  0001 C CNN
-	1    9200 4050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J17
-U 1 1 5D1825BB
-P 9650 3850
-F 0 "J17" H 9758 4131 50  0000 C CNN
-F 1 "sensor11" H 9758 4040 50  0000 C CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9650 3850 50  0001 C CNN
-F 3 "~" H 9650 3850 50  0001 C CNN
-	1    9650 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0140
-U 1 1 5D1825C5
-P 9850 3750
-F 0 "#PWR0140" H 9850 3600 50  0001 C CNN
-F 1 "+3V3" H 9850 3890 50  0000 C CNN
-F 2 "" H 9850 3750 50  0001 C CNN
-F 3 "" H 9850 3750 50  0001 C CNN
-	1    9850 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0141
-U 1 1 5D1825CF
-P 9850 4050
-F 0 "#PWR0141" H 9850 3800 50  0001 C CNN
-F 1 "GND" H 9850 3900 50  0000 C CNN
-F 2 "" H 9850 4050 50  0001 C CNN
-F 3 "" H 9850 4050 50  0001 C CNN
-	1    9850 4050
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9200 3850 2    60   Input ~ 0
-177
-Text GLabel 9200 3950 2    60   Input ~ 0
-180
-Text GLabel 9850 3850 2    60   Input ~ 0
-185
-Text GLabel 9850 3950 2    60   Input ~ 0
-183
-Wire Wire Line
-	9500 10250 10150 10250
+Connection ~ 12500 2750
+Text GLabel 13150 2100 2    60   Input ~ 0
+10A
+Text GLabel 13150 2000 2    60   Input ~ 0
+10B
 $EndSCHEMATC
